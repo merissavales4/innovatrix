@@ -1,0 +1,43 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+.app-container{
+display:flex;
+height:100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+width:320px;
+background:white;
+padding:20px;
+box-shadow:2px 0px 10px rgba(0,0,0,0.1);
+z-index:1000;
+}
+
+.logo{
+color:#2c6e49;
+margin-bottom:20px;
+}
+
+.search{
+margin-bottom:20px;
+}
+
+.route{
+margin-top:10px;
+}
+
+.mode-buttons button{
+margin:5px;
+}
+
+/* MAP */
+
+#map{
+flex:1;
+height:100vh;
+}

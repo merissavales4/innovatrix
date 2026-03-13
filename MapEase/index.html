@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>MapEase</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css"/>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="app-container">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<h2 class="logo">MapEase</h2>
+
+<input class="form-control search" placeholder="Search location">
+
+<h5>Route Planner</h5>
+
+<input class="form-control route" placeholder="Start location">
+
+<input class="form-control route" placeholder="Destination">
+
+<button class="btn btn-success w-100 mt-2">Find Route</button>
+
+<hr>
+
+<h6>Travel Mode</h6>
+
+<div class="mode-buttons">
+
+<button class="btn btn-outline-success">Walk</button>
+<button class="btn btn-outline-primary">Drive</button>
+<button class="btn btn-outline-warning">Transit</button>
+<button class="btn btn-outline-dark">Cycle</button>
+
+</div>
+
+</div>
+
+<!-- MAP -->
+
+<div id="map"></div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="js/map.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+</body>
+
+</html>
